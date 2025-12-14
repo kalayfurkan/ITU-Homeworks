@@ -1,0 +1,12 @@
+To see in command line run those commands:
+./rts.exe inputs.txt rm
+./rts.exe inputs.txt rm background
+./rts.exe inputs.txt rm deferrable 1 3
+
+To see in python matplotlib ui run those commands:
+Python visualize_schedule.py rts.exe inputs.txt dm
+Python visualize_schedule.py rts.exe inputs.txt dm background
+Python visualize_schedule.py rts.exe inputs.txt dm polling 1 3
+
+But if python scripts does not print out if system is failed or not
+Failed information visible only in CLI
